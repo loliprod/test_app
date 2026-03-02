@@ -1,11 +1,13 @@
-import 'package:flutter/material.dart';
 import 'dart:math';
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(const MainApp());
 }
 
+///The main 
 class MainApp extends StatelessWidget {
+  ///Create 
   const MainApp({super.key});
 
   @override
@@ -16,8 +18,9 @@ class MainApp extends StatelessWidget {
     );
   }
 }
-
+///The screen that display color and text 
 class ColorChangeScreen extends StatefulWidget {
+  ///Create
   const ColorChangeScreen({super.key});
 
   @override
